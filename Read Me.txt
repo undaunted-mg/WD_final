@@ -1,9 +1,14 @@
-To Use this project you need 4 windows open!
+To Use this project you need 4 windows open.
 
-1.
+First you need to make a folder that will hold your database items. You can do this easily in terminal by using the sudo mkdir -p /data/db command.
 
-Open terminal and run this command:
-~/desktop/WD_final/mongodb/bin/mongod
+Then you need to give your computer permissions to use these files so in terminal use the command:
+sudo chown -R 'username' /data/db 
+
+After that, you need to open 4 terminal windows in order to run this program.
+
+1.Open terminal and run this command:
+~/desktop/WD_final/mongodb/bin/mongod 
 
 This runs the mongodb database
 
@@ -26,6 +31,8 @@ cd ~/desktop/WD_final/MEANStack2018/back-end
 Then run this command:
 node server.js
 
-This allows the back end part of the data to work
+This allows the back end part of the data to work.
 
-If you was to clear out the forum, go back to mongo shell and type db.dropDatabase();
+If you wish to clear out the forum, go back to mongo shell and type db.dropDatabase();
+
+And that's it!
