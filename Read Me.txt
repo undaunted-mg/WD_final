@@ -1,0 +1,31 @@
+To Use this project you need 4 windows open!
+
+1.
+
+Open terminal and run this command:
+~/desktop/WD_final/mongodb/bin/mongod
+
+This runs the mongodb database
+
+2. Open another window:
+~/desktop/WD_final/mongodb/bin/mongo --host 127.0.0.1:27017
+
+This opens ups the mongo shell so we can see what's happening when messages in the forum go out.
+
+3.Open another window
+cd ~/desktop/WD_final/MEANStack2018/front-end
+
+Then run this command:
+gulp serve
+
+This opens up the webpage so we can see the front-end part of the webpage.
+
+4. Open another window!
+cd ~/desktop/WD_final/MEANStack2018/back-end
+
+Then run this command:
+node server.js
+
+This allows the back end part of the data to work
+
+If you was to clear out the forum, go back to mongo shell and type db.dropDatabase();
